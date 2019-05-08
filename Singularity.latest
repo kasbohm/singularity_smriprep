@@ -1,0 +1,6 @@
+Bootstrap: docker
+From: poldracklab/smriprep:latest
+IncludeCmd: yes
+
+%post
+    mkdir -p /tsd /usit /cluster /scratch
